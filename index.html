@@ -2,23 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css" >
-    <title>TODOList</title>
+    <link rel="stylesheet" href="style.css">
+    <title>TODO list</title>
 </head>
 <body>
-    <div class="container-1">
-        <h1> TO DO List</h1>
-        <div class="flex-box-container-1">
-            <form id='my-form' method='post'>
-                <input id="add-item" name="add-item" type="text" placeholder="Name" size=70/>
-                <input id="add-button" type='button' value='add-item' onclick='formSubmit()'/>
-            </form>
-        </div>
-        <div class="flex-box-container-2" id="flex-result">
-            <div></div>
-        </div>
+    <h1>ToDo List</h1>
+    <input type='text' placeholder="Add item" id='item'/>
+    <button id='add-button'>+</button>
+    <div id='container-1' class='results-style'>
     </div>
-    <script src="app.js"></script>
+    <script src='app.js'></script>
 </body>
 </html>
